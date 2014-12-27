@@ -18,10 +18,8 @@ public class CollectionsBenchmark {
 	public static void main(String[] args) {
 		// @formatter:off
         String[] args2= new String[] {
-        		"-Db=ADD",
-        		
                 "-Dsize=0,1,10,100,1000",
-                //"-Db=ADD,ITERATE,ITERATOR,CONTAINS,REMOVE,CLEAR",
+                "-Db=ADD,ITERATE,ITERATOR,CONTAINS,REMOVE,CLEAR",
                 "-Dimpl=JDK,HPPC,TROVE,GS,FAST_UTILS,JODA",
                 "--time-limit=60s",
                 //"-iallocation",
