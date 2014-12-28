@@ -1,4 +1,4 @@
-java-collection-benchmark
+Java Collection Benchmark
 =========================
 A collection of microbenchmark to measure different implementation of various Java collection data structures.
 
