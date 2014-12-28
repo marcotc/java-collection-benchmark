@@ -1,6 +1,6 @@
 Java Collection Benchmark
 =========================
-A collection of microbenchmark to measure different implementation of various Java collection data structures.
+A collection of microbenchmarks to compare different implementation of various Java collection data structures.
 
 Data structures tested:
 * Primitive integer array list
