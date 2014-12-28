@@ -15,5 +15,7 @@ Tested libraries:
 * [Trove](https://bitbucket.org/robeden/trove/)
 * Planned: [Koloboke](https://github.com/OpenHFT/Koloboke), [Javolution](http://javolution.org/)
 
+#### [:checkered_flag: Latest results](http://marcotc.github.io/java-collection-benchmark-results.htm)
+
 ### Implementation details
 Current implementation uses [Caliper](https://code.google.com/p/caliper/) for microbenchmarking. ([JMH](http://openjdk.java.net/projects/code-tools/jmh/) was considered, but I couldn't find a way to accurately measure the number of objects created during a benchmark run)
